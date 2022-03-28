@@ -1,0 +1,46 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Feb 13 12:53:20 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000088
+                   .cinit    romdata   0x000044    program   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000045      
+            70 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                       AA   0x00003d    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                    AZALT   0x000011    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+        DISPLAY_GORUNTULE   0x00001b    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                  GECIKME   0x000037    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+            LOOK_UP_TABLE   0x00002c    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                     MAIN   0x00000e    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                    SETUP   0x000001    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                SOL_AZALT   0x000017    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    SETUP   0x000001    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                     MAIN   0x00000e    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                    AZALT   0x000011    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                SOL_AZALT   0x000017    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+        DISPLAY_GORUNTULE   0x00001b    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+            LOOK_UP_TABLE   0x00002c    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                  GECIKME   0x000037    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+                       AA   0x00003d    program     static C:\Users\azuwin\Desktop\Mikroislemciler\Proje_Dosyalari\Ornek29.X\asmFile.asm
+
+

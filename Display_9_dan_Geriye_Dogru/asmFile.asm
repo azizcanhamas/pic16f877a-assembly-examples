@@ -1,0 +1,72 @@
+;PORTB'ye bagli anot display ile decimal (9-0) sayici uygulamasi
+    
+    #include <p16f877A.inc>
+    
+    DEGER EQU 0X20
+    
+    G1 EQU 0X21
+    G2 EQU 0X22
+    G3 EQU 0X23
+ 
+    ORG 0X00
+    GOTO SETUP
+    
+    SETUP
+	BANKSEL TRISB
+	CLRF TRISB
+	BANKSEL PORTB
+	CLRF PORTB
+	
+	MOVLW .9
+	MOVWF DEGER
+	
+	GOTO MAIN
+	
+    MAIN
+	CALL GECIKME
+	MOVFW DEGER
+	CALL LOOK_UP_TABLE
+	MOVWF PORTB
+	DECF DEGER,1
+	
+	GOTO MAIN
+
+    LOOK_UP_TABLE
+	ADDWF PCL,1
+	RETLW 0XC0
+	RETLW 0XF9
+	RETLW 0XA4
+	RETLW 0XB0
+	RETLW 0X99
+	RETLW 0X92
+	RETLW 0X82
+	RETLW 0XF8
+	RETLW 0X80
+	RETLW 0X90
+	
+    GECIKME
+	MOVLW 0XFF
+	MOVWF G1
+	
+	MOVLW 0XFF
+	MOVWF G2
+	
+	MOVLW 0X04
+	MOVWF G3
+	
+	AA:
+	    DECFSZ G1,1
+	    GOTO AA
+	    
+	    DECFSZ G2,1
+	    GOTO AA
+	    
+	    DECFSZ G3,1
+	    GOTO AA
+	    
+	RETURN
+	
+    END
+    
+
+

@@ -1,0 +1,5 @@
+Warning[207] C:\USERS\AZUWIN\DESKTOP\MIKROISLEMCILER\PROJE_DOSYALARI\ORNEK6.X\ASMFILE.ASM 9 : Found label after column 1. (SETUP)
+Message[302] C:\USERS\AZUWIN\DESKTOP\MIKROISLEMCILER\PROJE_DOSYALARI\ORNEK6.X\ASMFILE.ASM 11 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\AZUWIN\DESKTOP\MIKROISLEMCILER\PROJE_DOSYALARI\ORNEK6.X\ASMFILE.ASM 13 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\AZUWIN\DESKTOP\MIKROISLEMCILER\PROJE_DOSYALARI\ORNEK6.X\ASMFILE.ASM 15 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\AZUWIN\DESKTOP\MIKROISLEMCILER\PROJE_DOSYALARI\ORNEK6.X\ASMFILE.ASM 21 : Found label after column 1. (MAIN)

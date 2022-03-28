@@ -1,0 +1,43 @@
+;PORTA'nin pinlerine bagli butonlardan hangisine basilirsa PORTB'deki
+;o pine bagli LED'i yakan program
+    
+    #include <p16f877A.inc>
+    
+    ORG 0X00
+    GOTO SETUP
+    
+    SETUP
+	BANKSEL TRISB
+	CLRF TRISB
+	MOVLW 0XFF
+	MOVWF TRISA
+	MOVLW 0X06
+	MOVWF ADCON1
+	BANKSEL PORTB
+	CLRF PORTB
+	CLRW
+	GOTO MAIN
+	
+    MAIN
+	BTFSC PORTA,0
+	MOVLW .1
+	BTFSC PORTA,1
+	MOVLW .2
+	BTFSC PORTA,2
+	MOVLW .4
+	BTFSC PORTA,3
+	MOVLW .8
+	BTFSC PORTA,4
+	MOVLW .16
+	BTFSC PORTA,5
+	MOVLW .32
+	BTFSC PORTA,6
+	MOVLW .64
+	BTFSC PORTA,7
+	MOVLW .128
+	MOVWF PORTB
+	GOTO MAIN
+	
+    END
+
+

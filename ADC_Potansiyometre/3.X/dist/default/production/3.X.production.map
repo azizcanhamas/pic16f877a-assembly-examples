@@ -1,0 +1,68 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Feb 19 11:35:20 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000166
+                   .cinit    romdata   0x0000b3    program   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000b4      
+            181 out of 8454 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 ADC_AYAR   0x000075    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  ADC_OKU   0x000085    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       AR   0x00001d    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+             ASCII_LOOKUP   0x00006a    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                     ATLA   0x000040    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                    BASLA   0x00009c    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                    CEVIR   0x00003b    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  CEVIR_1   0x00004e    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  CEVIR_2   0x000042    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       DR   0x000024    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       FD   0x000088    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+           GECIKME_200USN   0x00001b    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+            GECIKME_50MSN   0x000020    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       GG   0x00009e    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                   GONDER   0x000029    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                 LCD_AYAR   0x000001    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       T2   0x000044    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  TEMIZLE   0x000095    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                TETIKLEME   0x000015    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 LCD_AYAR   0x000001    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                TETIKLEME   0x000015    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+           GECIKME_200USN   0x00001b    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       AR   0x00001d    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+            GECIKME_50MSN   0x000020    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       DR   0x000024    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                   GONDER   0x000029    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                    CEVIR   0x00003b    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                     ATLA   0x000040    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  CEVIR_2   0x000042    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       T2   0x000044    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  CEVIR_1   0x00004e    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+             ASCII_LOOKUP   0x00006a    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                 ADC_AYAR   0x000075    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  ADC_OKU   0x000085    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       FD   0x000088    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                  TEMIZLE   0x000095    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                    BASLA   0x00009c    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+                       GG   0x00009e    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\ADC\Çalýþmalar\3.X\asmFile.asm
+
+

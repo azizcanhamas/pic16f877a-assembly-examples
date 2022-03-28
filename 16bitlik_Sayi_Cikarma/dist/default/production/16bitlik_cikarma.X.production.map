@@ -1,0 +1,36 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Feb 20 08:18:36 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00003a
+                   .cinit    romdata   0x00001d    program   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00001e      
+            31 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                       GG   0x00001c    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+                     MAIN   0x00000a    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+                    SETUP   0x000001    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    SETUP   0x000001    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+                     MAIN   0x00000a    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+                       GG   0x00001c    program     static C:\Users\azuwin\Desktop\DESKTOP\Mikroiþlemciler Bütünleme Hazýrlýk\Proje_Dosyalari\Sinav_Oncesi\16bitlik_cikarma.X\asmFile.asm
+
+
